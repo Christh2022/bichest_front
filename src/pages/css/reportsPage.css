@@ -1,0 +1,29 @@
+#sidebar{
+    width: 238px;
+    height: 100%;
+    position: fixed;
+    top: 104px;
+    bottom: 0;
+    left: 0;
+}
+
+#reports-info{
+    position: fixed;
+    overflow: scroll;
+    left: 240px;
+    height: 90vh;
+    right: 20px;
+    top: 90px;
+}
+
+#container_reports {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 14px 14px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". ."
+        ". .";
+}
+
